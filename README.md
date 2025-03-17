@@ -63,6 +63,8 @@ Each record above represents an endpoint that will be hosted by Crucible. Here i
 
 Once you have your endpoints configured, we can start the server up.
 ```bash
+cd src/
+
 mix           # Non-interactive mode   
 iex -S mix    # Interactive mode via IEX  (Avoid for production use)
 ```
